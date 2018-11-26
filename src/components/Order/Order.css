@@ -1,0 +1,8 @@
+.Order{
+    width:80%;
+    border:1px solid goldenrod;
+    box-shadow: 3px 4px gold;
+    margin:10px auto;
+    padding:10px;
+    box-sizing: border-box;
+}

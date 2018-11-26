@@ -1,0 +1,50 @@
+input{
+    width: 80%;
+    height:30px;
+    margin:10px;    
+    text-align: center;
+    border-radius:10px;
+    border-color: wheat;
+    border-top-style: solid;
+    border-left-style: solid;
+}
+.Label{
+    font-weight:bold;
+    display:block;
+    margin-bottom: 8px;
+}
+
+.InputElement{
+    outline: none;
+    text-align: center;
+    border:1px solid;    
+    background-color: wheat;
+    font:inherit;
+    color: white;
+    padding:6px 10px; 
+    display: block;
+    width: 100%;
+    margin: 1px 50px 10px;
+}
+
+select{
+    width: 81.5%;
+    height:35px;
+    border-radius: 10px;
+    border-color: wheat;
+    border: 2px 15px;
+}
+
+.select{
+    text-align: center;
+    border-radius: 10px;
+}
+.Invalid{
+    border:1px solid red;
+    background-color: salmon;
+}
+
+.InputElement:focus{
+    outline: none;
+    background-color: tomato;
+}
